@@ -1,0 +1,106 @@
+:root{
+    --br: 0 10px 0 10px;
+}
+
+body {
+    background-color: #435F48;
+    color: #ffffff;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.cabecario {
+    margin: 40px;
+}
+
+.cabecario h1 {
+    font-size: 3rem;
+}
+
+.cabecario p {
+    font-size: 1.3rem;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.senha{
+    margin: 30px 0 0;
+}
+
+.email input, .senha input{
+    border-radius: var(--br);
+}
+
+.form-signin{
+    max-width: 330px;
+    padding: 15px;
+}
+
+.form-control{
+    padding: 10px 240px 10px 15px;
+}
+
+.checkbox{
+    margin: 10px 0;
+    font-size: 16px;
+}
+
+.esqueceu-senha{
+    margin: 20px 0px 30px;
+    font-size: 17px;
+}
+
+.esqueceu-senha a{
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.esqueceu-senha a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+
+.btn{
+    background-color: #fff;
+    padding: 13px 110px;
+    margin-top: 50px;
+}
+
+.btn:hover{
+    background-color: #fff;
+    color: #435F48;
+}
+
+.criar{
+    margin: 20px;
+    font-size: 16.3px;
+}
+
+.criar a{
+    text-decoration: none;
+}
+
+.criar a:hover{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #232727;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.footer p{
+    margin: 0;
+}
+ 
